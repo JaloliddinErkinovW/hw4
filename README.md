@@ -1,19 +1,9 @@
 # mp_hw4
 
-A new Flutter project created with FlutLab - https://flutlab.io
-
-## Getting Started
-
-A few resources to get you started if this is your first Flutter project:
-
-- https://flutter.dev/docs/get-started/codelab
-- https://flutter.dev/docs/cookbook
-
-For help getting started with Flutter, view our
-https://flutter.dev/docs, which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-## Getting Started: FlutLab - Flutter Online IDE
-
-- How to use FlutLab? Please, view our https://flutlab.io/docs
-- Join the discussion and conversation on https://flutlab.io/residents
+There are 4 dart files in this project, main.dart is used to launch the application and rest 3 pages for 3 screens. 
+  Screen 1:
+    Welcome page, which is output only once when the app is run for the first time (Shared preferences)
+  Screen 2:
+    Takes a random user information (name, age, email) using API and stores it into the local database (database is created newly in case there is no one which is already created)
+  Screen 3:
+    Visualize the data stored in the local database 
